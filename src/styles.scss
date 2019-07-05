@@ -1,0 +1,98 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(42, 94, 117);
+ 
+}
+.night{
+  background-color: rgb(219, 236, 250);
+}
+.search {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px
+}
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  border: 3px solid #fffafa;
+  padding: 8px;
+  box-sizing: border-box;
+  background: rgb(42, 94, 117);
+  color: white;
+  &.active{
+    border: 3px solid #71F3A0;
+    color: white;
+    color: #71F3A0;
+  }
+  &:hover {
+    color: #71F3A0;
+    background: rgb(69, 144, 177);
+  }
+}
+input {
+  padding: 10px;
+  border: 1px solid rgb(42, 94, 117);
+  box-shadow: 0 0 5px #71F3A0;
+}
+
+.descrWeather{
+  margin-top: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: 1px solid  rgb(42, 94, 117);
+  box-shadow: 0 0 155px #71F3A0;
+  & div{
+    padding: 5px;
+   
+  }
+}
+.descrCity{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.details{
+  margin-top: 20px;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid  rgb(42, 94, 117);
+  box-shadow: 0 0 15px #71F3A0;
+  & div{
+    padding: 10px;
+  }
+}
+.weatherServise{
+  padding: 20px;
+  font-size: 20px;
+}
+.flexColumn{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+ 
+}
+.searchBlock{
+  margin-top: 20px;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid  rgb(42, 94, 117);
+  box-shadow: 0 0 15px #71F3A0;
+}
+.errorBlock{
+  margin-top: 20px;
+  padding: 20px;
+  width: 100%;
+  color: red;
+  border: 1px solid  rgb(238, 61, 75);
+  box-shadow: 0 0 15px rgb(241, 175, 189);
+}
